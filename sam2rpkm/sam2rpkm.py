@@ -1,11 +1,11 @@
 #!/usr/bin/python
 
-#Este software extrae los RPKM de un archivo de mapeo de reads en formato sam
-#a partir de un genoma de referencia en formato genkbank
-
-#copyright GeBiX
-#Instituto Colombiano de Metagenomica y Bioinformatica
-#Colombia
+################################################################################
+#                                                                              #
+# This script makes RPKM calculation in a mapping file (format sam) using a    #
+# reference genome (genkbank format)                                           #
+#                                                                              #
+################################################################################
 
 #This program is free software: you can redistribute it and/or modify
 #it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 __author__ = 'Jose Ricardo Bustos Molina'
-__copyright__ = 'Copyright 2009, Jose Ricardo Bustos Molina, GeBiX'
+__copyright__ = 'Copyright 2012, Jose Ricardo Bustos Molina, Corpogen'
 __license__ = 'GPLv3 or later'
 __version__ = '0.1.3'
 __email__ = 'jrbustosm@gmail.com'
